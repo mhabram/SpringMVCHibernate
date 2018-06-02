@@ -20,6 +20,10 @@
 	       <h3>Save Customer</h3>
 	       
 	       <form:form action="saveCustomer" modelAttribute="customer" method="POST">
+	       
+	       <!-- Track the id of customer -->
+	       <form:hidden path="id" />
+	       
 	           <table>
 	               <tbody>
                        <tr>
