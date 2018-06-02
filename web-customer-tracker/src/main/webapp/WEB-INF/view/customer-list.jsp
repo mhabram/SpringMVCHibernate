@@ -18,6 +18,12 @@
 	   
 	   <div id="container">
 	       <div id="content">
+	           <input type="buttoN" value="Add Customer" 
+	               onclick="window.location.href='showFormForAdd'; return false;" 
+	               class="add-button" 
+	           />
+	           
+	       
 	           <table>
                    <tr>
                        <th>First Name</th>
@@ -34,6 +40,7 @@
                    </c:forEach>
                    
 	           </table>
+	           
 	       </div>
 	   </div>
 	   
