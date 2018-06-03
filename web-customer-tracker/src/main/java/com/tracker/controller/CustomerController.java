@@ -57,4 +57,12 @@ public class CustomerController {
         //Send to form
         return "customer-form";
     }
+    
+    @GetMapping("/delete")
+    public String customerDelete(@RequestParam("customerId") int id) {
+        //delete customer
+        customerService.deleteCustomer(id);
+        
+        return "redirect:/customer/list";
+    }
 }
