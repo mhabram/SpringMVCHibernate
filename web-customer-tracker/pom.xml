@@ -64,6 +64,13 @@
 		    <artifactId>spring-tx</artifactId>
 		    <version>5.0.6.RELEASE</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-aop</artifactId>
+		    <version>5.0.6.RELEASE</version>
+		</dependency>
 	    
 	    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 	    <dependency>
@@ -72,13 +79,19 @@
 	        <version>5.3.0.Final</version>
 	    </dependency>
 	    
+	    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+		<dependency>
+		    <groupId>org.aspectj</groupId>
+		    <artifactId>aspectjweaver</artifactId>
+		    <version>1.9.1</version>
+		</dependency>
+	    
 		<!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
 		<dependency>
 		    <groupId>com.mchange</groupId>
 		    <artifactId>c3p0</artifactId>
 		    <version>0.9.5.2</version>
 		</dependency>
-	    
     
 	    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 	    <dependency>
